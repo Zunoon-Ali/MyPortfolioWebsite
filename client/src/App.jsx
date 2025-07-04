@@ -7,6 +7,7 @@ import Contact from './components/Contact'
 import Footer from './components/footer'
 import Education from'./components/education'
 import Goal from './components/goal'
+import ScrollArrow from './components/ScrollArrow'
  
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <>
       <Header />
       <Hero />
+    < ScrollArrow />
       <About />
       <Education />
       <Skill />
