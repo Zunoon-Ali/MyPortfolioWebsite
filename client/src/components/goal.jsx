@@ -41,7 +41,7 @@ function Goals() {
       <div className="row">
         {goals.map((goal, index) => (
           <div key={index} className="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay={index * 100}>
-            <div className="card text-center shadow-sm h-100 p-4">
+            <div className="card text-center shadow-sm h-100 p-4 text-dark">
               <div className="fs-1 mb-3">{goal.icon}</div>
               <h5>{goal.title}</h5>
               <p className="text-muted">{goal.description}</p>

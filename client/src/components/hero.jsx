@@ -17,7 +17,7 @@ function Hero() {
           </p>
           <a
             href="/assets/zunoon-resume.pdf"
-            className="btn btn-outline-secondary me-2"
+            className="btn btn-outline-secondary btn-light text-secondary me-2 hero-vd"
             target="_blank"
             rel="noopener noreferrer"
           >

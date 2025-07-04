@@ -4,17 +4,17 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="container-fluid py-5 my-5 bg-grey-white-gradient"
+      className="container-fluid py-5 my-5"
     >
       {/* Section Heading: Use H2 for section title, SEO-friendly */}
       <h2
-        className="fw-bold mb-5 text-center text-white pb-3"
+        className="fw-bold mb-5 text-center pb-3"
         data-aos="fade-up"
       >
         Contact Me
       </h2>
 
-      <div className="row justify-content-center">
+      <div className="row justify-content-evenly align-items-start">
         {/* Contact Details */}
         <div
           className="col-md-5 mb-4 mb-md-0"
@@ -65,7 +65,7 @@ function Contact() {
         </div>
 
         {/* Contact Form */}
-        <div className="col-md-5" data-aos="fade-up" data-aos-delay="200">
+        <div className="col-md-4" data-aos="fade-up" data-aos-delay="200">
           <ContactForm />
         </div>
       </div>

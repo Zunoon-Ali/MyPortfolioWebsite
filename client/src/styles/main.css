@@ -1,15 +1,23 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  background-color: #000000de;
+  color: #fff;
+}
 
-/* Project Card Hover Effect */
+.my-dropdown .dropdown-item:hover {
+  color: #292828 !important; /* grey shade */
+}
 .project-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: rgb(63, 60, 60);
+  border-radius: 5px;
+  /* filter:drop-shadow(0 4px 12px rgba(122, 121, 121, 0.829)); */
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-7px);
 }
 
 .project-card .btn {
@@ -17,10 +25,10 @@ html {
 }
 
 .project-card .btn:hover {
-  /* transform: scale(1.05); */
-  background-color: white;
-  color: #007bff; /* Bootstrap primary color */
+  background-color: rgb(78, 77, 77);
+  color: #dde0e4; /* Bootstrap primary color */
   font-weight: bold;
+  border: white 0.5px solid;
 }
 #skills i:hover {
   transform: scale(1.2);
@@ -65,22 +73,16 @@ html {
   filter: drop-shadow(0 4px 22px rgba(61, 63, 66, 0.829));
 }
 
-/* .footer-social a:hover {
-  background-color: #fff;
-  color: #000;
-  transform: translateY(-3px) scale(1.1);
-  filter:drop-shadow( 0 4px 12px rgba(255, 255, 255, 0.3));
-} */
-/* styles.css ya main.css mein */
+/* styles.css ya main.css mein
 .bg-grey-white-gradient {
   background: linear-gradient(to bottom, grey, white);
-}
+} */
 .scroll-arrow-fixed {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  background: #000;
-  color: #fff;
+  background: #ffffff;
+  color: #000000;
   border: none;
   border-radius: 50%;
   width: 45px;
@@ -89,7 +91,8 @@ html {
   cursor: pointer;
   z-index: 999;
   opacity: 0.7;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .scroll-arrow-fixed:hover {
@@ -106,10 +109,25 @@ html {
 .hero-lkn:hover {
   background-color: white;
   color: #007bff; /* Bootstrap primary color */
-  font-weight: bold;
   transition: all 0.3s ease-in-out;
 }
 
-#hero a{
+#hero a {
   margin-bottom: 10px;
+}
+.hero-vd {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.hero-vd:hover {
+  background-color: #6c757d;
+  color: #fff !important;
+}
+
+#contact-form button:hover{
+background-color: rgb(41, 40, 40);
+  color: #bec1c5 !important;
+  border: 1px solid #abaeb1;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
 }

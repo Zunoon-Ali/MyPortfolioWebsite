@@ -14,7 +14,7 @@ function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="p-4  shadow-lg rounded bg-light">
+    <form onSubmit={handleSubmit} className="p-4  shadow-lg rounded bg-light text-dark" id="contact-form">
       <div className="mb-3">
         <label htmlFor="email" className="form-label fw-bold">
           Your Email Address
@@ -48,7 +48,7 @@ function ContactForm() {
       <button
         type="submit"
         disabled={state.submitting}
-        className="btn btn-primary w-100"
+        className="btn btn-outline-light btn-secondary w-100 font-weight-bold"
       >
         {state.submitting ? "Sending..." : "Send Message"}
       </button>
