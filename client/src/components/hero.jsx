@@ -1,7 +1,7 @@
 function Hero() {
   return (
-    <section className="container py-5">
-      <div className="row align-items-center">
+    <section id="hero" className="container py-5">
+      <div className="row align-items-center justify-content-center">
         {/* Left Side: Text */}
         <div className="col-md-6" data-aos="fade-right">
           <h1 className="display-4 fw-bold mb-3">

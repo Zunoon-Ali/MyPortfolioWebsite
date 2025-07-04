@@ -14,7 +14,7 @@ function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="p-4 shadow rounded bg-light">
+    <form onSubmit={handleSubmit} className="p-4  shadow-lg rounded bg-light">
       <div className="mb-3">
         <label htmlFor="email" className="form-label fw-bold">
           Your Email Address

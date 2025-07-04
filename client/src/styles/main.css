@@ -69,3 +69,7 @@
   transform: translateY(-3px) scale(1.1);
   filter:drop-shadow( 0 4px 12px rgba(255, 255, 255, 0.3));
 } */
+/* styles.css ya main.css mein */
+.bg-grey-white-gradient {
+  background: linear-gradient(to bottom, grey, white);
+}
