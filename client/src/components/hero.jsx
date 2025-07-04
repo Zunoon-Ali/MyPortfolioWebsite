@@ -14,7 +14,7 @@ function Hero() {
             I create modern, responsive websites with HTML, CSS, JavaScript, Bootstrap, and React.
           </p>
           <a
-            href="./src/assets/zunoon-resume.pdf"
+            href="..//assets/zunoon-resume.pdf"
             className="btn btn-primary me-2"
             target="_blank"
             rel="noopener noreferrer"
@@ -22,7 +22,7 @@ function Hero() {
             View CV
           </a>
           <a
-            href="./src/assets/zunoon-resume.pdf"
+            href="..assets/zunoon-resume.pdf"
             download
             className="btn btn-outline-secondary"
           >
@@ -33,7 +33,7 @@ function Hero() {
         {/* Right Side: Image */}
         <div className="col-md-6 text-center " data-aos="fade-left">
           <img
-            src="./src/assets/zunoon-ali.jpg"
+            src="../assets/zunoon-ali.jpg"
             alt="Zunoon Ali"
             className="img-fluid rounded-circle"
             style={{ maxWidth: '300px' }}

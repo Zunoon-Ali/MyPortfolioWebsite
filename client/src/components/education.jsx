@@ -28,7 +28,7 @@ function Education() {
         {/* Right: GIF */}
         <div className="col-md-6 text-center" data-aos="fade-left">
           <img 
-            src="./src/assets/reading.jpg" 
+            src="../assets/reading.jpg" 
             alt="Education Illustration" 
             className="img-fluid" 
             style={{ maxWidth: '400px' }} 

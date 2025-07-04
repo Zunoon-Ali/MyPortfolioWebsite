@@ -24,7 +24,7 @@ function About() {
         {/* Right side: Image or Graphic */}
         <div className="col-md-6 text-center" data-aos="fade-left">
           <img
-            src="./src/assets/programmer.gif" // Or any relevant graphic!
+            src="../assets/programmer.gif" // Or any relevant graphic!
             alt="About Illustration"
             className="img-fluid rounded-4"
             style={{ maxWidth: '400px' }}
