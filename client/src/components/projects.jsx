@@ -55,7 +55,7 @@ function Projects() {
       <div className="row">
         {projectList.map((project, index) => (
           <div
-            className="col-md-3 mb-4 shadow-md "
+            className="col-md-4 mb-4 shadow-md gap-4"
             key={index}
             data-aos="zoom-in"
             data-aos-delay={index * 100}
