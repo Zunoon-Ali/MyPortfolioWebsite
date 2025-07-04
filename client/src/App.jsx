@@ -4,7 +4,7 @@ import About from './components/about'
 import Skill from './components/skills'
 import Projects from './components/projects'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Footer from './components/footer'
 import Education from'./components/education'
 import Goal from './components/goal'
  
