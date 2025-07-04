@@ -35,7 +35,7 @@ function Hero() {
         </div>
 
         {/* Right Side: Image */}
-        <div className="col-md-6 text-center " data-aos="fade-left">
+        <div className="col-md-6 text-center" style={{ marginTop: '25px' }} data-aos="fade-left">
           <img
             src="../assets/zunoon-ali.jpg"
             alt="Zunoon Ali"

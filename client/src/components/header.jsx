@@ -1,14 +1,14 @@
 // Header.jsx
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg  sticky-top shadow-sm">
+    <nav className="navbar navbar-expand-lg navbar-light  sticky-top shadow-sm">
       <div className="container">
         <a className="navbar-brand fw-bold" href="#hero">
           <img src="/portfolio.png" className="logo" alt="Zunoon Ali Logo" />
         </a>
 
         <button
-          className="navbar-toggler"
+          className="navbar-toggler text-white"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -16,7 +16,7 @@ function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon" style={{filter: 'invert(1)'}}></span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
