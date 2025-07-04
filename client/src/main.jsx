@@ -7,8 +7,12 @@ import './styles/main.css'
 import './js/bootstrap.bundle.js'
 import 'aos/dist/aos.css'
 import '@fortawesome/fontawesome-free/css/all.min.css';
+ 
+
 
 import AOS from 'aos'
+
+ 
 
 AOS.init({
   offset: 120,

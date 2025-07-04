@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 
 /* Project Card Hover Effect */
 .project-card {
@@ -7,7 +9,7 @@
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .project-card .btn {
@@ -17,8 +19,8 @@
 .project-card .btn:hover {
   /* transform: scale(1.05); */
   background-color: white;
-    color: #007bff; /* Bootstrap primary color */
-    font-weight: bold;
+  color: #007bff; /* Bootstrap primary color */
+  font-weight: bold;
 }
 #skills i:hover {
   transform: scale(1.2);
@@ -57,7 +59,7 @@
 }
 
 .footer-social a:hover {
-  background-color: #ffffff6b;  
+  background-color: #ffffff6b;
   color: #000; /* icon color on hover */
   transform: translateY(-3px) scale(1.1);
   filter: drop-shadow(0 4px 22px rgba(61, 63, 66, 0.829));
@@ -93,4 +95,17 @@
 .scroll-arrow-fixed:hover {
   opacity: 1;
   transform: translateY(-4px);
+}
+
+.logo {
+  width: 50px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.hero-lkn:hover {
+  background-color: white;
+  color: #007bff; /* Bootstrap primary color */
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
 }

@@ -3,7 +3,9 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
       <div className="container">
-        <a className="navbar-brand fw-bold" href="#hero">Zunoon Ali</a>
+        <a className="navbar-brand fw-bold" href="#hero">
+          <img src="/portfolio.png" className="logo" alt="Zunoon Ali Logo" />
+        </a>
 
         <button
           className="navbar-toggler"
@@ -22,21 +24,20 @@ function Header() {
             <li className="nav-item">
               <a className="nav-link" href="#hero">Intro</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#about">About Me</a>
+
+            {/* DROPDOWN */}
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#about" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About Me
+              </a>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a className="dropdown-item" href="#education">Education</a></li>
+                <li><a className="dropdown-item" href="#skills">Skills</a></li>
+                <li><a className="dropdown-item" href="#projects">Projects</a></li>
+                <li><a className="dropdown-item" href="#goals">Goals</a></li>
+              </ul>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#education">Education</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#skills">Skills</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#projects">Projects</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#goals">Goals</a>
-            </li>
+
             <li className="nav-item">
               <a className="nav-link" href="#contact">Contact</a>
             </li>
@@ -44,6 +45,7 @@ function Header() {
         </div>
       </div>
     </nav>
+
   );
 }
 

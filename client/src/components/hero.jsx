@@ -11,22 +11,26 @@ function Hero() {
             Front-End Developer
           </h2>
           <p className="mb-4">
-            I create modern, responsive websites with HTML, CSS, JavaScript, Bootstrap, and React.
+            Passionate Front-End Developer skilled in HTML, CSS, Bootstrap, Tailwind CSS, and JavaScript.
+            I specialize in crafting responsive and user-friendly websites that combine clean code with modern design.
+            Eager to contribute innovative ideas and grow as a web developer.
           </p>
           <a
-            href="..//assets/zunoon-resume.pdf"
-            className="btn btn-primary me-2"
+            href="/assets/zunoon-resume.pdf"
+            className="btn btn-outline-secondary me-2"
             target="_blank"
             rel="noopener noreferrer"
           >
-            View CV
+            <i className="fas fa-file-alt me-1"></i> View & <i className="fas fa-download me-1"></i> Download Resume
           </a>
+
           <a
-            href="..assets/zunoon-resume.pdf"
-            download
-            className="btn btn-outline-secondary"
+            href="https://www.linkedin.com/in/zunoon-ali-377929253/"
+            className="btn btn-primary hero-lkn"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Download CV
+            <i className="fab fa-linkedin me-1"></i> Connect on LinkedIn
           </a>
         </div>
 

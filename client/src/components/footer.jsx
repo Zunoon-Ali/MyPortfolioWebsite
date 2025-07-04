@@ -15,16 +15,16 @@ function Footer() {
 
           {/* Right: Social Icons */}
           <div className="col-md-6 text-md-end footer-social">
-            <a
+            {/* <a
               href="https://facebook.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-light me-3 fs-5"
             >
               <FaFacebookF />
-            </a>
+            </a> */}
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/zunoon-ali-377929253/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-light me-3 fs-5"
@@ -40,7 +40,7 @@ function Footer() {
               <FaGithub />
             </a>
             <a
-              href="https://instagram.com/"
+              href="https://www.instagram.com/zunoon_pirzada/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-light fs-5"

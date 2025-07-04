@@ -42,8 +42,8 @@ function Projects() {
     {
       title: "Fiver Profile Card",
       description: "Responsive Netflix landing page using Bootstrap 5 and custom CSS animations.",
-      image: "../assets/fiverr-featured-image.webp",
-      link: "https://www.fiverr.com/s/8zEvmlE",
+      image: "../assets/Fiverr-featured-image.webp",
+      link: "https://www.fiverr.com/zunoonali2006?public_mode=true",
     }
   ];
 
