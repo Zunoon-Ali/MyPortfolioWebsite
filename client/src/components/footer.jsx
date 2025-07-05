@@ -1,7 +1,6 @@
 // Footer.jsx
 
 import { FaFacebookF, FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
-
 function Footer() {
   return (
     <footer className="bg-dark text-light py-4">
@@ -11,6 +10,7 @@ function Footer() {
           <div className="col-md-6 mb-3 mb-md-0">
             <h5 className="mb-0 fw-bold">Zunoon Ali</h5>
             <small className="text-muted">Front-End Developer Portfolio</small>
+            
           </div>
 
           {/* Right: Social Icons */}
