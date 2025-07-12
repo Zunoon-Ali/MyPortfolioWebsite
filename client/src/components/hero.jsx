@@ -16,7 +16,7 @@ function Hero() {
             Eager to contribute innovative ideas and grow as a web developer.
           </p>
           <a
-            href="/assets/zunoon-resume.pdf"
+            href="/assets/Muhammad-Zunoon-Ali-Frontend-Developer-Resume.png"
             className="btn btn-outline-secondary btn-light text-secondary me-2 hero-vd"
             target="_blank"
             rel="noopener noreferrer"
