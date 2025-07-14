@@ -44,6 +44,11 @@ function Projects() {
       description: "Check out my Fiverr profile where I offer professional web development services — from converting Figma/PSD designs to clean, responsive HTML/CSS websites to creating landing pages using Bootstrap, Tailwind, and JavaScript.",
       image: "../assets/Fiverr-featured-image.webp",
       link: "https://www.fiverr.com/zunoonali2006?public_mode=true",
+    },{
+      title:" Nova Gaming Hub",
+      description:"Nova Gaming Hub is a dynamic and responsive web app developed with React, styled by Tailwind CSS, and animated using GSAP. Hosted on Netlify, it showcases interactive UI and modern web development practices",
+      image:"../assets/nova-hub.webp",
+      link:"https://nova-gamiing-hub.netlify.app/"
     }
   ];
 
