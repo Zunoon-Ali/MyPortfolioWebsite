@@ -6,7 +6,7 @@ function Projects() {
       title: "Frethos Karachi",
       description: "HTML, CSS, JavaScript — hosted on Netlify,  Static responsive website with modern layout, navigation links, and smooth scrolling for an engaging café brand presentation",
       image: "../assets/frethos.png",
-      link: "https://frethos-karachi.netlify.app/",  
+      link: "https://frethos-karachi.netlify.app/",
     },
     {
       title: "Spotify Clone",
@@ -17,13 +17,13 @@ function Projects() {
     {
       title: "Netflix Landing Page",
       description: "HTML, CSS, JavaScript — hosted on Netlify, Static responsive website with a clean landing page design showcasing activities or community events, with smooth scrolling and interactive sections",
-      image: "../assets/netflix_logo.png",
+      image: "../assets/netflix.png",
       link: "https://lets-chill-together.netlify.app/",
     },
     {
       title: "Bootstrap 5 Project Model",
       description: "HTML, Bootstrap 5, CSS, JavaScript — hosted on Netlify, Responsive landing page built with Bootstrap 5 components like grid, cards, modals, and navbar, showcasing a modern layout and clean design",
-      image: "../assets/bootstrap.jpg",
+      image: "../assets/showcase.png",
       link: "https://bootstrap5-project-model.netlify.app/",
     },
     {
@@ -32,23 +32,36 @@ function Projects() {
       image: "../assets/x.jpg",
       link: "https://fun-with-x.netlify.app/",
     },
-    
+
     {
-      title: "Github Profile",
-      description: "Explore my open-source projects on GitHub — from responsive landing pages and static websites to basic JavaScript apps. Hosted code, real deployments, and experiments with HTML, CSS, Bootstrap, Tailwind, and JavaScript.",
-      image: "../assets/github.jpg",
-      link: "https://github.com/Zunoon-Ali",
+      title: "GSAP Desktop Animation — Kove Landing",
+      description: "HTML, CSS, JavaScript, GSAP — hosted on Netlify. A visually engaging landing page with advanced GSAP animations, smooth scroll effects, and a modern layout designed for desktop experience.",
+      image: "../assets/kovee.png",
+      link: "https://kove-gsap-desktop-prev.netlify.app/",
     },
     {
-      title: "Fiverr Profile",
-      description: "Check out my Fiverr profile where I offer professional web development services — from converting Figma/PSD designs to clean, responsive HTML/CSS websites to creating landing pages using Bootstrap, Tailwind, and JavaScript.",
-      image: "../assets/Fiverr-featured-image.webp",
-      link: "https://www.fiverr.com/zunoonali2006?public_mode=true",
-    },{
-      title:" Nova Gaming Hub",
-      description:"Nova Gaming Hub is a dynamic and responsive web app developed with React, styled by Tailwind CSS, and animated using GSAP. Hosted on Netlify, it showcases interactive UI and modern web development practices",
-      image:"../assets/nova-hub.webp",
-      link:"https://nova-gamiing-hub.netlify.app/"
+      title: "TaskFlow — Productivity App UI Clone",
+      description: "React, Tailwind CSS — hosted on Netlify. A pixel-perfect clone of a task management app, featuring responsive full-page layout, sticky sidebar, animations, and optimized performance across devices.",
+      image: "../assets/taskflow.jpg",
+      link: "https://taskflow-clone.netlify.app/",
+    },
+    {
+      title: "FocusList Tracker",
+      description: "React, Tailwind CSS — hosted on Netlify. A to-do productivity app with a minimalist design, state-based logic, and scrollable task list. Ideal for learning React fundamentals.",
+      image: "../assets/focusList.png",
+      link: "https://focuslist-track.netlify.app/",
+    },
+    {
+      title: "TaskFlow Offer Landing",
+      description: "HTML, CSS, Tailwind CSS — hosted on Netlify. A static promotional landing page styled with Tailwind CSS showcasing a fictional SaaS offer with clean layout and CTA sections.",
+      image: "../assets/tf.png",
+      link: "https://taskflow-offer.netlify.app/",
+    }
+    , {
+      title: " Nova Gaming Hub",
+      description: "Nova Gaming Hub is a dynamic and responsive web app developed with React, styled by Tailwind CSS, and animated using GSAP. Hosted on Netlify, it showcases interactive UI and modern web development practices",
+      image: "../assets/nova-hub.webp",
+      link: "https://nova-gamiing-hub.netlify.app/"
     }
   ];
 
