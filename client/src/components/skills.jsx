@@ -1,5 +1,5 @@
 // src/components/Skills.jsx
-
+import React from 'react';
 import {
   FaHtml5, FaCss3Alt, FaBootstrap, FaJsSquare, FaReact,
   FaNodeJs, FaPhp, FaLaravel, FaGitAlt, FaFigma

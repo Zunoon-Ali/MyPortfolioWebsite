@@ -1,4 +1,4 @@
-// Header.jsx
+import React from 'react';
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light  sticky-top shadow-sm">
@@ -16,7 +16,7 @@ function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon" style={{filter: 'invert(1)'}}></span>
+          <span className="navbar-toggler-icon" style={{ filter: 'invert(1)' }}></span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
@@ -55,3 +55,5 @@ function Header() {
 }
 
 export default Header;
+
+

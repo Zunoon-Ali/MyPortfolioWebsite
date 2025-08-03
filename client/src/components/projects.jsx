@@ -1,4 +1,4 @@
-// Projects.jsx
+import React from 'react';
 
 function Projects() {
   const projectList = [

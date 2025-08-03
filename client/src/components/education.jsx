@@ -1,4 +1,4 @@
-// Education.jsx
+import React from 'react';
 import { FaUniversity, FaSchool, FaGraduationCap } from "react-icons/fa";
 
 function Education() {

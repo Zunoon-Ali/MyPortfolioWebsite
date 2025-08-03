@@ -1,3 +1,4 @@
+import React from 'react';
 import { FaRocket, FaLaptopCode, FaUsers, FaBrain, FaGithub } from "react-icons/fa";
 import { SiFiverr } from "react-icons/si";
 

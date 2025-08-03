@@ -1,4 +1,4 @@
-// About.jsx
+import React from 'react';
 import { FaUser, FaBriefcase } from "react-icons/fa";
 
 function About() {
